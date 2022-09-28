@@ -1,0 +1,63 @@
+body {background-image: url(li.png);
+    background-image: url('img//premier\ league.jpg');
+}
+
+/* Table */
+.demo-table {
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 50%;
+}
+.demo-table tr th {
+background-color: #508abb;
+}
+
+.demo-table th {
+    border: 2px solid black;
+} 
+.demo-table td {
+    border: 2px solid #508abb;
+    padding: 5px 20px;
+}
+.demo-table .title {
+    caption-side: bottom;
+    margin-top: 15px;
+}
+
+/* Table Header */
+.demo-table thead th {
+  background-color: blue;
+  color: #353535;
+  border-color: aquamarine !important;
+  text-transform: uppercase;
+}   
+
+/* Table Body */
+.demo-table tbody td {
+    color: #353535;
+}   
+.demo-table tbody td:first-child,
+.demo-table tbody td:last-child,
+.demo-table tbody td:nth-child(4) {
+    text-align: center;
+}
+.demo-table tbody tr:nth-child(odd) td {
+    background-color:aqua;
+}   
+.demo-table tbody tr:hover td {
+    background-color: #508abb;
+    border-color: #508abb;
+    transition: all .3s;
+}
+
+/* Table Footer */
+.demo-table tfoot th {
+    background-color: #353535;
+}
+.demo-table tfoot th:first-child {
+    text-align: left;
+}
+.demo-table tbody td:empty
+{
+    background-color: #ffcccc;
+}
